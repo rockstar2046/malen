@@ -1,0 +1,3 @@
+2011-12-01 18:43:25,468  INFO [main]  com.rockagen.malen.utils.MalenLog.(main:11) - this is info level !
+2011-12-01 18:43:25,471  WARN [main]  com.rockagen.malen.utils.MalenLog.(main:12) - this is warn level !
+2011-12-01 18:43:25,471  ERROR [main]  com.rockagen.malen.utils.MalenLog.(main:13) - this is error level !

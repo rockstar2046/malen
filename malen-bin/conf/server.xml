@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- HTTPSERVER CONFIG You just config follow option -->
+
+<server>
+
+	<Version name="malen" id="0.0.1" />
+
+	<!-- this config remote shutdown command eg: TELNET shutdown port by default 
+		8005 -->
+	<Remote port="8005" shutdown="SHUTDOWN" />
+
+	<!-- A "Connector" represents an endpoint by which requests are received 
+		and responses are returned. the port by default is 8080 -->
+	<Connector port="8080" protocol="HTTP/1.1" maxConnect="2000"/>
+
+	<!--The web server will be check this appbase when webserver start. by default 
+		appbaseis webapps -->
+	<Host name="localhost" appBase="webapps" root="ROOT"/>
+
+	<Executor maxThreads="150" />
+
+	<Debug daemonPrint="false" />
+
+</server>
