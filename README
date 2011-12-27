@@ -29,9 +29,9 @@
 # conf description
 #
     mime.xml  is http contentTye file
-	      server.xml is malen server configuration file
-	      log4j.properties is configuration log4j file
-	      filtermim3.proerties is which do not exclude filters file
+    server.xml is malen server configuration file
+    log4j.properties is configuration log4j file
+    filtermim3.proerties is which do not exclude filters file
 
 #
 # webapps description
