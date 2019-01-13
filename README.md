@@ -22,7 +22,7 @@
 >filtermim3.proerties is which do not exclude filters file
 
 ###### webapps description
->Your website direcotry, you must config yourwebsite/WEB-INF/web.xml
+>Your website directory, you must config yourwebsite/WEB-INF/web.xml
 >and how to configuration please see comes with example
 
 ###### other
